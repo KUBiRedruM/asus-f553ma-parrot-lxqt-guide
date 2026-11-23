@@ -21,3 +21,5 @@ sudo sysctl -p
 echo "=== 5. Disabling unneeded background services ==="
 # Note: Remove bluetooth.service below if you use Bluetooth devices
 sudo systemctl disable --now bluetooth.service cups.service ModemManager.service || true
+
+echo "=== Setup complete! Reboot recommended. ==="
