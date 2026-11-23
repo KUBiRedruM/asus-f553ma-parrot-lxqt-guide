@@ -9,6 +9,17 @@ A verified setup, power management, and performance tuning guide for running **P
 * **Battery Module:** `X453-42` (`B21N1329`)
 * **OS & Desktop:** Parrot OS (LXQt session with `xfwm4` window manager)
 
+## Quick Automated Setup
+Run all power and performance tweaks automatically:
+```bash
+git clone https://github.com
+cd asus-f553ma-parrot-lxqt-guide
+bash setup.sh
+```
+
+---
+
+
 ---
 
 ## 1. Screen Flickering & AC Power Management
